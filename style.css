@@ -1,0 +1,78 @@
+/* Réinitialisation des marges et des paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f5f7;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Conteneur principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* En-tête */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #0079bf;
+}
+
+/* Mise en page des colonnes */
+main {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Style des colonnes */
+.column {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    padding: 10px;
+}
+
+.column h2 {
+    font-size: 1.5rem;
+    color: #0079bf;
+    margin-bottom: 15px;
+}
+
+/* Style des cartes */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Effet au survol des cartes */
+.card:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
